@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 import sys
-sys.path.append('/mnt/data2/liuhongli/')
+sys.path.append('/mnt/data2/liuxin/')
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "2"
 
@@ -19,7 +19,7 @@ learning_rate = 0.001
 decay_steps = 10000
 decay_rate = 0.7
 num_epochs = 200
-data_path = '/mnt/data2/liuhongli/AutoML_20181121/cifar10/datasets/'
+data_path = '/mnt/data2/liuxin/AutoML_20181121/cifar10/datasets/'
 layer_num = 20
 
 train_display_step = 10
