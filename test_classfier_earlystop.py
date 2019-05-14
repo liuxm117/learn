@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 import sys
-sys.path.append('/mnt/data2/liuxin/AutoML_20181121')
+sys.path.append('/mnt/data2/liuxin/')
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "2"
 
